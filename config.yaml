@@ -37,3 +37,10 @@ monitors:
     url: 'https://oneapi.criswuaaa.serv00.net/'
     method: GET
     expectStatus: 200
+    
+  - id: 001
+    name: oneapi-on-render
+    description: '部署在 render上的 oneapi'
+    url: 'https://oneapi-render.wcy.cloudns.be'
+    method: GET
+    expectStatus: 200
