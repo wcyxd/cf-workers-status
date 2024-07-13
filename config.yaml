@@ -48,6 +48,6 @@ monitors:
   - id: 002
     name: oneapi-2-on-render
     description: '部署在 render上的 oneapi-2'
-    url: 'https://oneapi-render.yuan.cloudns.ch'
+    url: 'https://oneapi.freedom.dns-dynamic.net/'
     method: GET
     expectStatus: 200
