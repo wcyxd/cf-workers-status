@@ -31,10 +31,10 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: new-api
-    name: oneapi.criswuaaa.serv00.net
+  - id: one-api
+    name: oneapi-on-serv00-s4
     description: 'serv00 上的 oneapi'
-    url: 'https://oneapi.criswuaaa.serv00.net/'
+    url: 'https://oneapi.ziyou.cloudns.be'
     method: GET
     expectStatus: 200
     
