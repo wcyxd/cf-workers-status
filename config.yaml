@@ -52,7 +52,7 @@ monitors:
     method: GET
     expectStatus: 200
 
- - id: 003
+ - id: hf-ds
     name: huggingface-deepseek
     description: '部署在 huggingface 上的 deepseek'
     url: 'https://chokatrue-servds.hf.space'
