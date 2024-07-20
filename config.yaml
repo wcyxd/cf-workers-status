@@ -44,3 +44,31 @@ monitors:
     url: 'https://oneapi-render.wcy.cloudns.be'
     method: GET
     expectStatus: 200
+    
+  - id: 002
+    name: oneapi-2-on-render
+    description: '部署在 render上的 oneapi-2'
+    url: 'https://oneapi.freedom.dns-dynamic.net/'
+    method: GET
+    expectStatus: 200
+
+ - id: hf-ds
+    name: huggingface-deepseek
+    description: '部署在 huggingface 上的 deepseek'
+    url: 'https://chokatrue-servds.hf.space'
+    method: GET
+    expectStatus: 200
+    
+ - id: hf-qwen
+    name: huggingface-qwen
+    description: '部署在 huggingface 上的 qwen'
+    url: 'https://chokatrue-servty.hf.space'
+    method: GET
+    expectStatus: 200
+
+ - id: hf-duckai
+    name: huggingface-duckai
+    description: '部署在 huggingface 上的 duckai'
+    url: 'https://chokatrue-serv.hf.space'
+    method: GET
+    expectStatus: 200
