@@ -45,19 +45,19 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: 002
-    name: oneapi-2-on-render
-    description: '部署在 render上的 oneapi-2'
-    url: 'https://oneapi.freedom.dns-dynamic.net/'
-    method: GET
-    expectStatus: 200
+ #  - id: 002
+ #    name: oneapi-2-on-render
+ #    description: '部署在 render上的 oneapi-2'
+ #    url: 'https://oneapi.freedom.dns-dynamic.net/'
+ #    method: GET
+ #    expectStatus: 200
 
- - id: hf-ds
-    name: huggingface-deepseek
-    description: '部署在 huggingface 上的 deepseek'
-    url: 'https://chokatrue-servds.hf.space'
-    method: GET
-    expectStatus: 200
+ # - id: hf-ds
+ #    name: huggingface-deepseek
+ #    description: '部署在 huggingface 上的 deepseek'
+ #    url: 'https://chokatrue-servds.hf.space'
+ #    method: GET
+ #    expectStatus: 200
     
  # - id: 004
  #    name: huggingface-qwen
