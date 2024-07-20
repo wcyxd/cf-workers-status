@@ -51,3 +51,24 @@ monitors:
     url: 'https://oneapi.freedom.dns-dynamic.net/'
     method: GET
     expectStatus: 200
+
+ - id: 003
+    name: huggingface-deepseek
+    description: '部署在 huggingface 上的 deepseek'
+    url: 'https://chokatrue-servds.hf.space'
+    method: GET
+    expectStatus: 200
+    
+ - id: 004
+    name: huggingface-qwen
+    description: '部署在 huggingface 上的 qwen'
+    url: 'https://chokatrue-servty.hf.space'
+    method: GET
+    expectStatus: 200
+
+ - id: 005
+    name: huggingface-duckai
+    description: '部署在 huggingface 上的 duckai'
+    url: 'https://chokatrue-serv.hf.space'
+    method: GET
+    expectStatus: 200
