@@ -72,3 +72,10 @@ monitors:
     url: 'https://chokatrue-serv.hf.space'
     method: GET
     expectStatus: 200
+
+  - id: hf-open-webui
+    name: huggingface-open-webui
+    description: '部署在 huggingface 上的 open webui'
+    url: 'https://open-webui.wcy.cloudns.be'
+    method: GET
+    expectStatus: 200
