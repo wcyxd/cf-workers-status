@@ -79,3 +79,11 @@ monitors:
     url: 'https://open-webui.wcy.cloudns.be'
     method: GET
     expectStatus: 200
+
+  - id: hf-serv00-auto-login-and-restart
+    name: serv00-auto-login-and-restart
+    description: '部署在 huggingface 上 serv00自动登录和自动重启 pm2 管理的任务(间隔时间 1 天)'
+    url: 'https://chokatrue-mar-755-kk.hf.space'
+    method: GET
+    expectStatus: 200
+    
