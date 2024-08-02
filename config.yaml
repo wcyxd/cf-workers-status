@@ -87,3 +87,12 @@ monitors:
     method: GET
     expectStatus: 200
     
+  - id: render-open-webui
+    name: render-open-webui
+    description: '部署在 render 上的 open webui'
+    url: 'https://open-render.wcy.cloudns.be'
+    method: GET
+    expectStatus: 200
+
+
+    
