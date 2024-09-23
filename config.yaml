@@ -31,12 +31,12 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: one-api
-    name: oneapi-on-serv00-s4
-    description: 'serv00 上的 oneapi'
-    url: 'https://oneapi.ziyou.cloudns.be'
-    method: GET
-    expectStatus: 200
+  # - id: one-api
+  #   name: oneapi-on-serv00-s4
+  #   description: 'serv00 上的 oneapi'
+  #   url: 'https://oneapi.ziyou.cloudns.be'
+  #   method: GET
+  #   expectStatus: 200
     
   - id: 001
     name: oneapi-on-render
