@@ -69,7 +69,8 @@ monitors:
   - id: hf-duckai
     name: huggingface-duckai
     description: '部署在 huggingface 上的 duckai'
-    url: 'https://chokatrue-serv.hf.space'
+    # url: 'https://chokatrue-serv.hf.space'
+    url: 'https://chokatrue-d2g.hf.space'
     method: GET
     expectStatus: 200
 
