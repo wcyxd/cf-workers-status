@@ -37,13 +37,14 @@ monitors:
   #   url: 'https://oneapi.ziyou.cloudns.be'
   #   method: GET
   #   expectStatus: 200
-    
-  - id: 001
-    name: oneapi-on-render
-    description: '部署在 render上的 oneapi'
-    url: 'https://oneapi-render.wcy.cloudns.be'
-    method: GET
-    expectStatus: 200
+
+  # 20250111 失效
+  # - id: 001
+  #   name: oneapi-on-render
+  #   description: '部署在 render上的 oneapi'
+  #   url: 'https://oneapi-render.wcy.cloudns.be'
+  #   method: GET
+  #   expectStatus: 200
     
   # - id: 002
   #   name: oneapi-2-on-render
