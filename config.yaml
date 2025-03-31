@@ -74,19 +74,19 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: hf-serv00-auto-login-and-restart
-    name: serv00-auto-login-and-restart
-    description: '部署在 huggingface 上 serv00自动登录和自动重启 pm2 管理的任务(间隔时间 1 天)'
-    url: 'https://chokatrue-mar-755-kk.hf.space'
+  - id: drawclicks-for-ipddns-doman
+    name: drawclicks-for-ipddns-doman
+    description: '保持域名活跃，cloudns域名需要点击保持活跃，否则会删除'
+    url: 'https://drawclicks.criswu.ip-ddns.com'
     method: GET
     expectStatus: 200
     
-  - id: render-open-webui
-    name: render-open-webui
-    description: '部署在 render 上的 open webui'
-    url: 'https://open-render.wcy.cloudns.be'
-    method: GET
-    expectStatus: 200
+  # - id: render-open-webui
+  #   name: render-open-webui
+  #   description: '部署在 render 上的 open webui'
+  #   url: 'https://open-render.wcy.cloudns.be'
+  #   method: GET
+  #   expectStatus: 200
 
 
     
